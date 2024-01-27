@@ -1,6 +1,9 @@
-const student = require("./student")
+const {getAge} = require("./student")
 
-console.log(student.getAge());
-console.log(student.getName())
-console.log(student.gpa())
-console.log(student.name)
+// for exact function 
+// const {getAge} = require("./student")
+
+console.log(getAge());
+// console.log(student.getName())
+// console.log(student.gpa())
+// console.log(student.name) 
